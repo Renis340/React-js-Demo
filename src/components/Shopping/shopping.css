@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-bg {
+    background-color: #2874f0;
+}
+
+._2Fvgi {
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+}
+
+.search_blue {
+    color: #2874f0;
+}
+
+.w-550 {
+    width: 550px;
+}
+
+.login-btn {
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+}
+
+._3-PJz-{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    color: #fff;
+    position: relative;
+}
+
+.drop-dwon-bg {
+    border: none !important;
+    color: white; 
+    text-align: center;
+    height: 32px !important;
+    font-weight: 700;
+}
+
+.cart-display {
+    display: inline-flex;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+.header-bottom {
+    background-color: #ffffff;
+}
+
+.text-display {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.gap-between {
+    margin-top: 15px;
+}
+
+.mt-358 {
+    margin-left: 358px;
+}
+
+.slider {
+    width: 1680px;
+    margin-left: 120px;
+    padding: 35px;
+}

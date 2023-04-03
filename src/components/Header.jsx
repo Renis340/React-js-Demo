@@ -96,6 +96,11 @@ function Header() {
                 <Link to={'/videos'}>Videos</Link>
               </Button>
             </VStack>
+            <VStack alignItems={"flex-start"}>
+              <Button  onClick={onClose} colorScheme={"blue"} variant={"ghost"}>
+                <Link to={'/shopping'}>Shopping</Link>
+              </Button>
+            </VStack>
             
           </>:
           <>
