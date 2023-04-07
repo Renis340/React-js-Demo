@@ -7,7 +7,8 @@ import Login from './components/Login/Login';
 import Protected from './components/Protected/Protected';
 import Register from './components/Register/Register';
 import Videos from './components/Youtube/Videos';
-import Shopping from './components/Shopping/index';
+import Shopping from './components/Shopping/Index';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/signup' element={<Register />} />
         <Route path='/videos' element={<Protected Cmp={Videos} />} />
         <Route path='/shopping' element={<Protected Cmp={Shopping} />} />
+        <Route path='/about' element={<Protected Cmp={About} />} />
       </Routes>
       <Footer  />
    </Router>

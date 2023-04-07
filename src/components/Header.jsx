@@ -17,7 +17,7 @@ import {
 import {Link} from 'react-router-dom';
 import {BiMenuAltLeft } from 'react-icons/bi';
 import { FaInstagram, FaFacebookF, FaLinkedin } from  'react-icons/fa';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
 
@@ -32,7 +32,7 @@ function Header() {
 
   return (
   <>
-  <VStack>
+  <VStack >
     <Flex w={"100%"}>
       <Button
         pos={"fixed"} 
@@ -74,7 +74,7 @@ function Header() {
       </IconButton>
     </Flex>
   </VStack>
-  <Drawer isOpen={isOpen} placement="left" onClose={onClose}>
+  <Drawer isOpen={isOpen} placement="left" onClose={onClose} isFullHeight={"100%"}>
 
     <DrawerOverlay />
 
@@ -99,6 +99,11 @@ function Header() {
             <VStack alignItems={"flex-start"}>
               <Button  onClick={onClose} colorScheme={"blue"} variant={"ghost"}>
                 <Link to={'/shopping'}>Shopping</Link>
+              </Button>
+            </VStack>
+            <VStack alignItems={"flex-start"}>
+              <Button  onClick={onClose} colorScheme={"blue"} variant={"ghost"}>
+                <Link to={'/about'}>Social</Link>
               </Button>
             </VStack>
             
